@@ -218,7 +218,31 @@
                 in some form, by injected humour.
             </p>
             <!-- slider -->
-
+            <div>
+                <div class="carousel w-full mt-16">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="images/slider-1.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="images/slider-2.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="images/slider-3.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Frequently Asked Any Questions -->
@@ -363,15 +387,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex-1 space-y-3">
-                    <input type="text" placeholder="Your name" class="input input-bordered w-full py-8 bg-[#F3F3F3]" />
+                <div class="flex-1 space-y-2">
+                    <input type="text" placeholder="Your name"
+                        class="input input-bordered w-full h-16 bg-[#F3F3F3] shadow-xl" />
                     <br>
                     <input type="email" placeholder="Email" name="" id=""
-                        class="input input-bordered w-full py-8 bg-[#F3F3F3]">
+                        class="input input-bordered w-full h-16 bg-[#F3F3F3]">
                     <br>
-                    <input type="text" class="input input-bordered w-full py-8 bg-[#F3F3F3]" placeholder="Subject">
+                    <input type="text" class="input input-bordered w-full h-16 bg-[#F3F3F3]" placeholder="Subject">
                     <br>
-                    <textarea name="" id="" cols="68" rows="8"
+                    <textarea name="" id="" cols="68" rows="9"
                         class="p-2 border border-gray rounded-lg border-zinc-400 bg-[#F3F3F3]"
                         placeholder="Your message"></textarea>
                     <br>
