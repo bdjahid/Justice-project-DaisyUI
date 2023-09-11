@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- daisy & tailwind link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -115,7 +117,7 @@
     <main>
         <!-- The Legal Practice Area -->
         <section class="container mx-auto my-20">
-            <h2 class="text-center text-5xl font-bold">The Legal Practice Area</h2>
+            <h2 class="text-center text-5xl font-bold pb-5">The Legal Practice Area</h2>
             <p class="text-center text-lg font-semibold">There are many variations of passages of Lorem Ipsum available,
                 but the
                 majority have
@@ -124,7 +126,7 @@
                 in some form, by injected humour.
             </p>
 
-            <div class="pt-20 grid grid-cols-1 grid-cols-2 grid-cols-3">
+            <div class="pt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- card -->
                 <div class="bg-base-100 shadow-2xl py-16 btn-outline">
                     <figure class="flex justify-center"><img src="images/business.png" alt="Shoes" /></figure>
@@ -205,12 +207,66 @@
             </div>
         </section>
 
-        <section>
-
+        <!-- What Our Client Say -->
+        <section class="container mx-auto my-20">
+            <h2 class="text-center text-5xl font-bold pb-5">What Our Client Say</h2>
+            <p class="text-center text-lg font-semibold">There are many variations of passages of Lorem Ipsum available,
+                but the
+                majority have
+                <br>
+                suffered alteration
+                in some form, by injected humour.
+            </p>
+            <!-- slider -->
 
         </section>
     </main>
-    <footer>
+    <!-- section footer -->
+    <footer class="bg-[#111]">
+
+        <div class="container mx-auto footer p-10 text-white">
+            <nav>
+                <header class="text-white">
+                    <img src="images/logo.png" alt="">
+                </header>
+                <br>
+                <a class="link link-hover">There are many variations of <br> passages of Lorem Ipsum <br> available, but
+                    the
+                    majority
+                    have <br> suffered alteration in some <br> form, by injected humour.</a>
+            </nav>
+            <nav>
+                <header class="text-white">Usefull Link</header>
+                <a class="link link-hover">Homes</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Cases</a>
+                <a class="link link-hover">Blog</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav>
+                <header class="text-white">Contact Now</header>
+                <a class="link link-hover">555 4th 5t NW, Washington <br>
+                    DC 20530, United States</a>
+                <a class="link link-hover">+88 01750 000 000 <br>
+                    +88 01750 000 000</a>
+                <a class="link link-hover">info@gmail.com <br>
+                    info@gmail.com</a>
+            </nav>
+            <form>
+                <header class="text-white">Subscribe</header>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text text-white">Subscribe for our latest & Articles. We Won’t Give You Spam
+                            Mails</span>
+                    </label>
+                    <div class="relative">
+                        <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" />
+                        <button class="btn bg-[#B68C5A] absolute top-0 right-0 rounded-l-none"> <i
+                                class="fa-solid fa-location-arrow"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
 
     </footer>
 </body>
